@@ -1,0 +1,35 @@
+﻿<Page x:Class="ProyectoFinalEstructuraDeDatos.NuevoElemento"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProyectoFinalEstructuraDeDatos"
+      mc:Ignorable="d"
+      Title="NuevoElemento" Height="313.211" Width="486.79">
+
+    <Grid Margin="0,0,-0.6,0.6">
+        <TextBlock x:Name="lblAgregarNuevoElemento" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Agregar Nuevo Elemento" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="lblTipoNuevoElemento" HorizontalAlignment="Left" Margin="10,36,0,0" TextWrapping="Wrap" Text="Tipo:" VerticalAlignment="Top" Visibility="Visible" />
+        <RadioButton x:Name="rdbPelicula" Content="Pelicula" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Visibility="Visible" Checked="RdbPelicula_Checked"/>
+        <RadioButton x:Name="rdbSerie" Content="Serie" HorizontalAlignment="Left" Margin="106,57,0,0" VerticalAlignment="Top" Visibility="Visible" Checked="RdbSerie_Checked"/>
+        <TextBlock x:Name="lblTituloNuevoElemento" HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" Text="Titulo:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTituloNuevoElemento" HorizontalAlignment="Left" Height="20" Margin="58,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="376"/>
+        <TextBlock x:Name="lblAñoNuevoElemento" HorizontalAlignment="Left" Margin="12,104,0,0" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAñoNuevoElemento" HorizontalAlignment="Left" Height="20" Margin="58,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock x:Name="lblGeneroNuevoElemento" HorizontalAlignment="Left" Margin="232,104,0,0" TextWrapping="Wrap" Text="Genero:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtGeneroNuevoElemento" HorizontalAlignment="Left" Height="20" Margin="298,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock x:Name="lblTemporadasNuevoElemento" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Temporadas:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTemporadasNuevoElemento" HorizontalAlignment="Left" Height="20" Margin="104,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"/>
+        <Button x:Name="btnTemporadasUpNuevoElemento" Content="Λ" HorizontalAlignment="Left" Margin="158,126,0,0" VerticalAlignment="Top" Width="14" Height="14" FontSize="7"/>
+        <Button x:Name="btnTemporadasDownNuevoElemento" Content="V" HorizontalAlignment="Left" Margin="158,140,0,0" VerticalAlignment="Top" Width="14" Height="14" FontSize="7"/>
+        <TextBlock x:Name="lblProductorNuevoElemento" HorizontalAlignment="Left" Margin="186,132,0,0" TextWrapping="Wrap" Text="Productor:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProductorNuevoElemento" HorizontalAlignment="Left" Height="20" Margin="265,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBlock x:Name="lblDescripcionNuevoElemento" HorizontalAlignment="Left" Margin="10,159,0,0" TextWrapping="Wrap" Text="Descripcion:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDescripcionNuevoElemento" HorizontalAlignment="Left" Height="100" Margin="104,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330"/>
+        <TextBlock x:Name="lblRatingNuevoElemento" HorizontalAlignment="Left" Margin="10,273,0,0" TextWrapping="Wrap" Text="Rating:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRatingNuevoElemento" HorizontalAlignment="Left" Height="20" Margin="73,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="0"/>
+        <Button x:Name="btnRatingUpNuevoElemento" Content="Λ" HorizontalAlignment="Left" Margin="104,267,0,0" VerticalAlignment="Top" Width="14" Height="14" FontSize="7"/>
+        <Button x:Name="btnRatingDownNuevoElemento" Content="V" HorizontalAlignment="Left" Margin="104,281,0,0" VerticalAlignment="Top" Width="14" Height="14" FontSize="7"/>
+
+    </Grid>
+</Page>

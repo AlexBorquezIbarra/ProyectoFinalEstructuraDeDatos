@@ -1,0 +1,33 @@
+﻿<Page x:Class="ProyectoFinalEstructuraDeDatos.VisualizarElemento"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProyectoFinalEstructuraDeDatos"
+      mc:Ignorable="d"
+      Title="VisualizarElemento" Width="472.8" Height="311.6">
+
+    <Grid Margin="0,0,-0.2,0">
+        <TextBlock x:Name="lblVisualizar" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Visualizar Elemento" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="lblTituloVizualizar" HorizontalAlignment="Left" Margin="10,77,0,0" TextWrapping="Wrap" Text="Titulo:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTituloVizualizar" HorizontalAlignment="Left" Height="20" Margin="58,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="376"/>
+        <TextBlock x:Name="lblAnnoVizualizar" HorizontalAlignment="Left" Margin="12,104,0,0" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAnnoVizualizar" HorizontalAlignment="Left" Height="20" Margin="58,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock x:Name="lblGeneroVizualizar" HorizontalAlignment="Left" Margin="232,104,0,0" TextWrapping="Wrap" Text="Genero:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtGeneroVizualizar" HorizontalAlignment="Left" Height="20" Margin="298,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock x:Name="lblTemporadasVizualizar" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Temporadas:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTemporadasVizualizar" HorizontalAlignment="Left" Height="20" Margin="104,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"/>
+        <TextBlock x:Name="lblProductorVizualizar" HorizontalAlignment="Left" Margin="186,132,0,0" TextWrapping="Wrap" Text="Productor:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProductorVizualizar" HorizontalAlignment="Left" Height="20" Margin="265,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBlock x:Name="lblDescripcionVizualizar" HorizontalAlignment="Left" Margin="10,159,0,0" TextWrapping="Wrap" Text="Descripcion:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDescripcionVizualizar" HorizontalAlignment="Left" Height="100" Margin="104,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330"/>
+        <TextBlock x:Name="lblRatingVizualizar" HorizontalAlignment="Left" Margin="10,273,0,0" TextWrapping="Wrap" Text="Rating:" VerticalAlignment="Top"/>
+        <Image x:Name="imgEstrella1" Margin="104,264,335,13" Source="" Stretch="Fill"/>
+        <Image Margin="104,264,329,8" Source="Estrella.png" Stretch="Fill"/>
+        <Image Margin="149,264,284,8" Source="Estrella.png" Stretch="Fill"/>
+        <Image Margin="193,264,240,8" Source="Estrella.png" Stretch="Fill"/>
+        <Image Margin="242,264,191,8" Source="Estrella.png" Stretch="Fill"/>
+        <Image Margin="287,264,146,8" Source="Estrella.png" Stretch="Fill"/>
+
+    </Grid>
+</Page>
