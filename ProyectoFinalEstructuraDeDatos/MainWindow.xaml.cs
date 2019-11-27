@@ -25,13 +25,13 @@ namespace ProyectoFinalEstructuraDeDatos
         public MainWindow()
         {
             InitializeComponent();
-            Elementos.Add(new Elemento("Baby Blue", "2019", "terror", "0", "Dross", "Por su traduccion M****a Azul", "5"));
-            Elementos.Add(new Elemento("ah shit, here we go again", "2015", "accion", "0", "Andrea Sazueta", "Primera mision roba una bici", "4"));
-            Elementos.Add(new Elemento("Las Caguamas Locas", "2016", "comedia", "3", "Osbaldo Beltran.", "Los 3 buchones en busca de alcohol", "3"));
+            Elementos.Add(new Elemento("Baby Blue", "2019", "terror", "0", "Dross", "Por su traduccion M****a Azul", "4"));
+            Elementos.Add(new Elemento("ah shit, here we go again", "2015", "accion", "0", "Andrea Sazueta", "Primera mision roba una bici", "5"));
+            Elementos.Add(new Elemento("Las Caguamas Locas", "2009", "comedia", "3", "Osbaldo Beltran.", "Los 3 buchones en busca de alcohol", "2"));
             lsNombreAño.ItemsSource = Elementos;
         }
 
-        private void LsNombreAnno_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void LsNombreAño_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             grdInterfaz.Children.Add(new VisualizarElemento());
             grdInterfaz.Visibility = Visibility.Visible;
@@ -53,7 +53,7 @@ namespace ProyectoFinalEstructuraDeDatos
 
 
             ((VisualizarElemento)(grdInterfaz.Children[0])).txtTituloVizualizar.Text = Elementos[lsNombreAño.SelectedIndex].Titulo;
-            ((VisualizarElemento)(grdInterfaz.Children[0])).txtAnnoVizualizar.Text = Elementos[lsNombreAño.SelectedIndex].Año;
+            ((VisualizarElemento)(grdInterfaz.Children[0])).txtAñoVizualizar.Text = Elementos[lsNombreAño.SelectedIndex].Año;
             ((VisualizarElemento)(grdInterfaz.Children[0])).txtGeneroVizualizar.Text = Elementos[lsNombreAño.SelectedIndex].Genero;
             ((VisualizarElemento)(grdInterfaz.Children[0])).txtTemporadasVizualizar.Text = Elementos[lsNombreAño.SelectedIndex].Temporada;
             ((VisualizarElemento)(grdInterfaz.Children[0])).txtProductorVizualizar.Text = Elementos[lsNombreAño.SelectedIndex].Productor;

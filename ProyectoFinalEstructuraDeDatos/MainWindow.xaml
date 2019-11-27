@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListView x:Name="lsNombreAño" HorizontalAlignment="Left" Height="349" Margin="10,10,0,0" VerticalAlignment="Top" Width="260" SelectionChanged="LsNombreAnno_SelectionChanged">
+        <ListView x:Name="lsNombreAño" HorizontalAlignment="Left" Height="349" Margin="10,10,0,0" VerticalAlignment="Top" Width="260" SelectionChanged="LsNombreAño_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn DisplayMemberBinding="{Binding Titulo}" Header="Titulo" Width="120"/>

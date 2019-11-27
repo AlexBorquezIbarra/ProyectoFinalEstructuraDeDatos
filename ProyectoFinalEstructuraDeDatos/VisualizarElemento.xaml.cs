@@ -18,7 +18,7 @@ namespace ProyectoFinalEstructuraDeDatos
     /// <summary>
     /// Lógica de interacción para VisualizarElemento.xaml
     /// </summary>
-    public partial class VisualizarElemento : Page
+    public partial class VisualizarElemento : UserControl
     {
         public VisualizarElemento()
         {

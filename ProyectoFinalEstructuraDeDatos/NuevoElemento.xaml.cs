@@ -18,7 +18,7 @@ namespace ProyectoFinalEstructuraDeDatos
     /// <summary>
     /// Lógica de interacción para NuevoElemento.xaml
     /// </summary>
-    public partial class NuevoElemento : Page
+    public partial class NuevoElemento : UserControl
     {
         public NuevoElemento()
         {
